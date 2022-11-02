@@ -1,0 +1,250 @@
+.main{
+    width: 100vw;
+    display: block;
+}
+
+.infocontainer{
+    color: white;
+}
+
+
+#img2{
+        
+      position: fixed;
+        width: 25vw;
+        float: left;
+        margin: 20px;
+        margin-top: 80px;
+        border-radius: 20px;
+        
+    }
+.devinfo1 {  
+   
+    display: flex;
+    width: 65vw;
+    float:right;
+    margin: 20px;
+    margin-top: 180px;
+    font-size: 28px;
+    
+}
+
+/* ----------------------------------------------------- */
+
+@media only screen and (max-width: 1200px){
+#img2{
+    width: 30vw;
+    display: block;
+
+}
+.devinfo1{
+    margin-top: 100px;
+    width: 60vw;
+}
+}
+
+/* ================================================== */
+
+
+@media only screen and (max-width: 1000px){
+
+    .infocontainer{
+        display: block;
+        
+    }
+    .devimg2{
+        display: flex;
+        justify-content: center;
+    }
+    #img2{
+        margin: 30px;
+        display: block;
+        position: relative;
+        width: 30vw;
+       float: left;
+    }
+    .devinfo1{
+        
+        display: flex;
+        font-size: 2rem;
+        width: 90vw;
+        margin: 30px;
+    }
+    }
+
+    /* ================================================= */
+
+
+    @media only screen and (max-width: 800px){
+
+        .infocontainer{
+            display: block;
+            
+        }
+        .devimg2{
+            display: flex;
+            justify-content: center;
+        }
+        #img2{
+            margin: 20px;
+            display: block;
+            position: relative;
+            width: 30vw;
+           float: left;
+        }
+        .devinfo1{
+            
+            display: flex;
+            font-size: 24px;
+            width: 90vw;
+            margin: 30px;
+        }
+        }
+
+    /* =================================================== */
+
+    @media only screen and (max-width: 600px){
+        .infocontainer{
+            display: block;
+            
+        }
+        .devimg2{
+            display: flex;
+            justify-content: center;
+        }
+        #img2{
+            margin: 40px;
+            display: block;
+            position: relative;
+            width: 30vw;
+           float: left;
+        }
+        .devinfo1{
+            display: flex;
+            width: 90vw;
+            margin: 30px;
+            font-size: 20px;
+           
+        }
+        }
+
+        /* ========================================================== */
+
+        @media only screen and (max-width: 500px){
+            .infocontainer{
+                display: block;
+                
+            }
+            .close{
+                display: block;
+            }
+            .bar{
+                display: block;
+                position: absolute;
+                top: 5px;
+                right: 0;
+                padding-top: 25px;
+                padding-right: 25px;
+                
+            }
+             #nav1 {
+                
+                background-color: rgb(19, 19, 19);
+                position: fixed;
+                right: -200px;
+                width: 140px;
+                height: 40vh;
+                padding-top: 10px;    
+            }
+            
+            .sidebar nav li {
+            display: block;
+            margin: 25px;
+                
+            }
+            #close1{
+                display: block;
+                color: #b0382b;
+                font-weight:bolder;
+                font-size: 22px;
+            }
+            .devimg2{
+                display: flex;
+                justify-content: center;
+            }
+            #img2{
+                margin: 40px;
+                display: block;
+                width: 30vw;
+               float: left;
+            }
+            .devinfo1{
+                
+                display: flex;
+                font-size: 1.3rem;
+                width: 90vw;
+                margin: 30px;
+            }
+            }
+
+                  /* ========================================================== */
+
+        @media only screen and (max-width: 300px){
+            .infocontainer{
+                display: block;
+                
+            }
+            .close{
+                display: block;
+            }
+            .bar{
+                display: block;
+                position: absolute;
+                
+                top: 5px;
+                right: 0;
+                padding-top: 25px;
+                padding-right: 25px;
+                
+            }
+             #nav1 {
+                
+                background-color: rgb(19, 19, 19);
+                position: fixed;
+                right: -200px;
+                width: 140px;
+                height: 40vh;
+                padding-top: 10px;    
+            }
+            
+            .sidebar nav li {
+            display: block;
+            margin: 25px;
+                
+            }
+            #close1{
+                display: block;
+                color: #b0382b;
+                font-weight:bolder;
+                font-size: 22px;
+            }
+            .devimg2{
+                display: flex;
+                justify-content: center;
+            }
+            #img2{
+                margin: 10px;
+                display: block;
+                width: 40vw;
+               float: left;
+            }
+            .devinfo1{
+                
+                display: flex;
+                font-size: .9rem;
+                width: 80vw;
+                margin: 30px;
+            }
+            }
+
+

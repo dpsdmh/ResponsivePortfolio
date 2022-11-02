@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet_Portfolio.css">
+    <link rel="stylesheet" href="about.css">
+    <title>about by Dipanshu raj</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+           
+
+                <div class="logo"><a href="index.html">
+                        <div class="logo-inner">
+                            <b class="R">R</b>
+                    </a>
+                </div>
+        </div>
+        <nav id="nav1">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html"> About</a></li>
+            <li><a href="skills.html"> Skills</a></li>
+            <li><a href="mailto:dpsdmh@gmail.com"> Contact</a></li>
+            <li id="close1" onclick="close1()">Close</li>
+          </ul>
+       
+            </div>
+        </nav>
+        <div class="bar" onclick="open1()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+       
+    </div>
+    <div class="main">
+        <div class="infocontainer">
+            <div class="devimg2"><img id="img2" src="My Pic 1.jpg" alt="Error"></div>
+            <div class="devinfo1">
+                A full stack developer, having knowledge in Java, Data Structure, JavaScript, React.JS, Node.Js, Redux
+                Seeking a
+                beginner’s role to explore and enhance my technical knowledge gained at University hold a B.Tech Degree
+                in
+                Electronics and Telecommunication from Government engineering college Jagdalpur and completed a
+                professional
+                course in full stack web development from Newton School.
+            </div>
+            
+
+        </div>
+    </div>
+
+</body>
+<script>
+    var nav1= document.getElementById("nav1");
+    function open1(){
+        nav1.style.right= "10px";
+          
+    }
+    function close1(){
+        nav1.style.right= "-200px";   
+    }
+    
+</script>
+
+</html>

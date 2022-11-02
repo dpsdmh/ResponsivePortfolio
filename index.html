@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dipanshu_Raj_Portfolio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="stylesheet_Portfolio.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="sidebar">
+           
+
+                <div class="logo"><a href="index.html">
+                        <div class="logo-inner">
+                            <b class="R">R</b>
+                    </a>
+                </div>
+        </div>
+        <nav id="nav1">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html"> About</a></li>
+            <li><a href="skills.html"> Skills</a></li>
+            <li><a href="mailto:dpsdmh@gmail.com"> Contact</a></li>
+            <li id="close1" onclick="close1()">Close</li>
+          </ul>
+       
+            </div>
+        </nav>
+        <div class="bar" onclick="open1()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+       
+    </div>
+    <div class="main">
+        <div class="infocontainer">
+            <div class="devinfo">
+                <div class="hello">Hello I'm</div>
+                <div class="name">Dipanshu Raj</div>
+                <div class="about">Electronics and Telecommunication Engineer <br> Full Stack Developer</div>
+                <div class="button">
+                    <div class="buttonR">
+                        <Button id="btn1"><a href="https://1drv.ms/b/s!AuJbTXT4wK1VkOMYvCp3kGq5jicRkg?e=M28qqr">
+                                Resume</a></Button>
+                    </div>
+                    <div class="buttonP"> <button id="btn2"><a href="https://github.com/dpsdmh"> Projects </a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="devimg"><img id="imgI"
+                    src="https://www.transparentpng.com/thumb/boy/aPjtmy-png-boy-transparent-boy-png-images.png"
+                    width="280px" alt="Error loading.."></div>
+        </div>
+    </div>
+    <div class="social">
+
+        <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa fa-linkedin fa-2x"
+                aria-hidden="true"></i></a>
+
+        <a href="https://github.com/dpsdmh" target="_blank"><i class="fa fa-github fa-2x"
+                aria-hidden="true"></i></a></a>
+
+        <a href="https://twitter.com/home" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+
+    </div>
+    </div>
+</body>
+
+<script>
+    var nav1= document.getElementById("nav1");
+    function open1(){
+        nav1.style.right= "10px";
+          
+    }
+    function close1(){
+        nav1.style.right= "-200px";   
+    }
+    
+</script>
+
+</html>
