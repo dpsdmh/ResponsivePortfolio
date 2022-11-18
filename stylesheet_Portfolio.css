@@ -1,3 +1,4 @@
+
 body {
     overflow-x: auto;
 	flex-wrap: nowrap;
@@ -6,6 +7,9 @@ body {
     background-image: url("../images/pattern-background-mobile.svg");
     width: 100vw;
     height: 90vh;
+}
+.typed-cursor{
+    display: none;
 }
 .bar{
     display: none;
