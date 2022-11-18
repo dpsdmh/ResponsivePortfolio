@@ -14,11 +14,9 @@
 </head>
 
 <body>
-
-    <div class="container">
+   <div class="container">
         <div class="sidebar">
            
-
                 <div class="logo"><a href="index.html">
                         <div class="logo-inner">
                             <b class="R">R</b>
@@ -47,7 +45,7 @@
             <div class="devinfo">
                 <div class="hello">Hello I'm</div>
                 <div class="name">Dipanshu Raj</div>
-                <div class="about">Electronics and Telecommunication Engineer <br> Full Stack Developer</div>
+                <p class="about"> </p>
                 <div class="button">
                     <div class="buttonR">
                         <Button id="btn1"><a href="https://1drv.ms/b/s!AuJbTXT4wK1VkOMiZJ5qQTkxTWPEdw?e=XHcv8i">
@@ -86,6 +84,25 @@
         nav1.style.right= "-200px";   
     }
     
+</script>
+</script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+<script>
+    $(function() {
+         $(".about").typed({
+            strings: ["Electronics and Telecom Engineer", 
+            "Web Developer", "UI/UX Designer"],
+            typeSpeed: 100,
+            backSpeed: 50,
+            backDelay: 1000, 
+            loop: true,
+            
+            
+
+        });
+    });
+
 </script>
 
 </html>
