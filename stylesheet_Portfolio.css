@@ -114,6 +114,7 @@ a{
 }
 
 .about {
+	height: 20px;
     margin-top: 20px;
     font-size: large;
 }
