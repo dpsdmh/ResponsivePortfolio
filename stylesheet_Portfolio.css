@@ -1,6 +1,7 @@
 .typed-cursor{
     display: none;
 }
+
 body {
     overflow-x: auto;
 	flex-wrap: nowrap;
@@ -114,12 +115,13 @@ a{
 
 .about {
     margin-top: 20px;
-    font-size: larger;
+    font-size: large;
 }
 
 .button {
     margin-top: 25px;
    display: flex;
+   position:absolute;
 }
 
 .button button {
@@ -141,6 +143,7 @@ a{
 }
 
 .devimg {
+    position: static;
     margin: auto;
     margin-top: 60px;
     
@@ -459,7 +462,7 @@ a{
     .button{
         
         align-content: center;
-        margin-top: 70px;
+        margin-top: 90px;
         
     }
     #btn1{
