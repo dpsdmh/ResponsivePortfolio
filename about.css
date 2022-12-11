@@ -1,32 +1,35 @@
-.main{
+.main {
     width: 100vw;
     display: block;
 }
 
-.infocontainer{
+.infocontainer {
     color: white;
 }
 
 
-#img2{
-        
-      position: fixed;
-        width: 25vw;
-        float: left;
-        margin: 20px;
-        margin-top: 80px;
-        border-radius: 20px;
-        
-    }
-.devinfo1 {  
-   
-    display: flex;
-    width: 65vw;
-    float:right;
+#img2 {
+
+    position: fixed;
+    width: 22vw;
+    height: 55vh;
+    float: left;
     margin: 20px;
-    margin-top: 180px;
+    margin-top: 70px;
+    margin-left: 70px;
+    border-radius: 20px;
+
+}
+
+.devinfo1 {
+
+    display: flex;
+    width: 60vw;
+    float: right;
+    margin-top: 100px;
+    margin-right: 50px;
     font-size: 28px;
-    
+
 }
 
 /* ----------------------------------------------------- */
